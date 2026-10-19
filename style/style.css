@@ -747,3 +747,23 @@ body {
 .section-four .text-box p {
   color: #ffffff !important;
 }
+.card-front,
+  .card-inside {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .card-front h1 {
+    font-size: clamp(34px, 9vw, 46px);
+  }
+
+  .card-front p {
+    font-size: clamp(17px, 4.8vw, 22px);
+  }
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
