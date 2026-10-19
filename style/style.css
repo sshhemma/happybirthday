@@ -7,7 +7,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background: #fff8f5;
-  color: #59464d;
+  color: #eaeaea;
   overflow-x: hidden;
   overflow-y: hidden;
   min-height: 100vh;
@@ -369,8 +369,8 @@ body {
   font-family: "Pacifico", cursive;
   margin: 20px 0;
   text-transform: none;
-  color: #ff4da6;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  color: #b85f7b;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .wish-hbd span {
