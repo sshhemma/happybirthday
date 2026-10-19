@@ -370,7 +370,7 @@ body {
   margin: 20px 0;
   text-transform: none;
   color: #fff4da;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 .wish-hbd span {
