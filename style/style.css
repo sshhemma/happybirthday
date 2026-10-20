@@ -610,7 +610,7 @@ body {
 .section-nine p {
   font-size: 2rem;
   font-weight: 300;
-  color: #59464d;
+  color: #e879a9 !important;
 }
 
 #replay {
