@@ -747,18 +747,60 @@ body {
 .section-four .text-box p {
   color: #ffffff !important;
 }
-font-size: clamp(30px, 8vw, 40px);
-    line-height: 1.25;
+/* Мобильная версия открытки */
+@media screen and (max-width: 600px) {
+  .card-overlay {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
   }
 
-  .card-front p {
+  .birthday-card {
+    width: calc(100vw - 48px);
+    max-width: 340px;
+    height: min(68vh, 460px);
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .card-front,
+  .card-back {
+    width: 100%;
+    height: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .card-front h1 {
+    font-size: clamp(30px, 8vw, 40px);
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .card-front p,
+  .card-back p {
     font-size: clamp(15px, 4.3vw, 19px);
     line-height: 1.5;
+    text-align: center;
   }
 
-  .card-front button,
-  .card-back button {
+  .card-back h2 {
+    font-size: clamp(30px, 8vw, 38px);
+    line-height: 1.25;
+    margin-bottom: 18px;
+  }
+
+  .envelope-icon {
+    font-size: 68px;
+    margin-bottom: 16px;
+  }
+
+  .open-btn {
     max-width: 100%;
+    padding: 14px 28px;
+    font-size: 18px;
   }
 
   html,
