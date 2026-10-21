@@ -330,10 +330,9 @@ body {
 .idea-6 span {
   font-size: 15rem;
   font-weight: bold;
-  background: linear-gradient(135deg, #ff4da6 0%, #ffd54f 50%, #00e5ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #e879a9;
+  background: none;
+  -webkit-text-fill-color: #e879a9;
 }
 
 /* Birthday Wish Section */
